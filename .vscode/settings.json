@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "tuple": "cpp",
+        "string_view": "cpp"
+    },
+
+        "[c]": {
+            "editor.defaultFormatter": "xaver.clang-format"
+        },
+        "[cpp]": {
+            "editor.defaultFormatter": "xaver.clang-format"
+        },
+        "C_Cpp.default.cppStandard": "c++20"
+
+}
