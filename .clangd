@@ -1,0 +1,9 @@
+CompileFlags:
+  Add: [-std=c++23, -Wall, -Wno-unused-includes]
+
+InlayHints:
+  Enabled: No
+
+Diagnostics:
+  UnusedIncludes: None
+  MissingIncludes: None

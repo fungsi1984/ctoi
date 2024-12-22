@@ -4,16 +4,12 @@
         "string_view": "cpp",
         "iostream": "cpp"
     },
-
-        "[c]": {
-            "editor.defaultFormatter": "xaver.clang-format"
-        },
         "[cpp]": {
-            "editor.defaultFormatter": "xaver.clang-format"
+            "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
         },
-        "C_Cpp.default.cppStandard": "c++20",
-        "lldb.displayFormat": "auto",
         "lldb.dereferencePointers": true,
-        "lldb.consoleMode": "commands"
+        "lldb.consoleMode": "commands",
+        "lldb.showDisassembly": "never",
+        "lldb.displayFormat": "auto"
 
 }
