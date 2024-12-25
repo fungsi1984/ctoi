@@ -16,8 +16,8 @@ std::vector<int> twoSum(const std::vector<int>& nums, int target) {
 }
 
 int main() {
-    std::vector<int> nums = {2, 7, 11, 15};
-    int target = 9;
+    std::vector<int> nums = {2, 7, 11, 15, 100};
+    int target = 115;
     std::vector<int> result = twoSum(nums, target);
 
     if (!result.empty()) {

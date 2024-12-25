@@ -20,14 +20,12 @@ std::vector<int> twoSum(std::vector<int>& nums, int target) {
 int main() {
     std::vector<int> nums = {2, 7, 11, 15};
     int target = 9;
-
     std::vector<int> result = twoSum(nums, target);
 
     if (!result.empty()) {
-        auto [index1, index2] = result; // Structured binding
-        std::print("Indices of the two numbers that add up to {} are: {} and {}\n", target, index1, index2);
+        std::print("Indices: {}, {}\n", result[0], result[1]);
     } else {
-        std::print("No solution found.\n");
+        std::print("No two sum solution\n");
     }
 
     return 0;
