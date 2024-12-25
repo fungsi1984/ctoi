@@ -67,9 +67,14 @@ int main() {
     vector<int> result = solution.largestValues(root);
 
     // Print the result
-    for (int val : result) {
-        cout << val << " ";
+    cout << "[";
+    for (size_t i = 0; i < result.size(); ++i) {
+        cout << result[i];
+        if (i < result.size() - 1) {
+            cout << ", ";
+        }
     }
+    cout << "]" << endl;
 
     return 0;
 }
