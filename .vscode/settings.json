@@ -5,7 +5,7 @@
         "iostream": "cpp"
     },
         "[cpp]": {
-            "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+            "editor.defaultFormatter": "KylinIdeTeam.vscode-clangd"
         },
         "lldb.dereferencePointers": true,
         "lldb.consoleMode": "commands",

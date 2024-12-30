@@ -2,7 +2,7 @@ CompileFlags:
   Add: [-std=c++23, -Wall, -Wno-unused-includes]
 
 InlayHints:
-  Enabled: No
+  Enabled: False
 
 Diagnostics:
   UnusedIncludes: None
